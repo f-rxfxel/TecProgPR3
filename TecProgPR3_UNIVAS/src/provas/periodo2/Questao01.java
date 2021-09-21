@@ -8,7 +8,7 @@ public class Questao01 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int[] grades= new int[25]; // troque o "25" pela quantidade de notas desejada :)
+		int[] grades= new int[25]; // troque o "25" pela quantidade de notas desejada =)
 		int lowestGrade, highestGrade;
 		
 		for(int i = 0; i < grades.length; i++){
