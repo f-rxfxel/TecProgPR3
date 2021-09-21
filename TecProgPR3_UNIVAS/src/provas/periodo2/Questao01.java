@@ -8,19 +8,19 @@ public class Questao01 {
 		
 		Scanner input = new Scanner(System.in);
 		
-		int[] grades= new int[5];
+		int[] grades= new int[25]; // troque o "25" pela quantidade de notas desejada :)
 		int lowestGrade, highestGrade;
 		
 		for(int i = 0; i < grades.length; i++){
-			System.out.print("Digite a nota do " + (i + 1) + "° aluno: ");
+			System.out.print("Digite a nota do " + (i + 1) + "Â° aluno: ");
 			grades[i] = input.nextInt();
 		}
 		
 		highestGrade = grades[0];
 		lowestGrade = grades[0];
 		
-		System.out.println("A maior nota é " + classifyHigh(grades, highestGrade));
-		System.out.println("A menor nota é " + classifyLow(grades, lowestGrade));
+		System.out.println("A maior nota Ã© " + classifyHigh(grades, highestGrade));
+		System.out.println("A menor nota Ã© " + classifyLow(grades, lowestGrade));
 		
 	input.close();
 	
